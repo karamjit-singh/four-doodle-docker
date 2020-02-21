@@ -64,7 +64,6 @@ pillow
 scissors
 t-shirt
 tooth
-alarm_clock
 paper_clip
 spoon
 microphone
