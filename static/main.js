@@ -183,7 +183,7 @@ load the class names
 */
 async function loadDict() {
 
-    loc = 'fdoodle/class_names.txt'
+    loc = 'static/fdoodle/class_names.txt'
     
     await $.ajax({
         url: loc,
@@ -259,7 +259,7 @@ load the model
 async function start() {
     
     //load the model 
-    model = await tf.loadLayersModel('fdoodle/model.json')
+    model = await tf.loadLayersModel('static/fdoodle/model.json')
     
     //warm up 
     model.predict(tf.zeros([1, 28, 28, 1]))
